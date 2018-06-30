@@ -5,10 +5,10 @@ public class ChatAppMsgDTO {
 
     public final static String MSG_TYPE_RECEIVED = "MSG_TYPE_RECEIVED";
 
-    // Message content.
+
     private String msgContent;
 
-    // Message type.
+    
     private String msgType;
 
     public ChatAppMsgDTO(String msgType, String msgContent) {
