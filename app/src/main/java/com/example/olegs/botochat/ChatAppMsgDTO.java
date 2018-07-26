@@ -8,7 +8,7 @@ public class ChatAppMsgDTO {
 
     private String msgContent;
 
-    
+
     private String msgType;
 
     public ChatAppMsgDTO(String msgType, String msgContent) {

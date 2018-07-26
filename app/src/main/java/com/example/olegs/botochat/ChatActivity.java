@@ -18,6 +18,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -94,7 +95,16 @@ public class ChatActivity extends AppCompatActivity {
                 }
 
                 ChatAppMsgDTO msgDto = new ChatAppMsgDTO(ChatAppMsgDTO.MSG_TYPE_RECEIVED, getRandomString(10));
-                msgDtoList.add(msgDto);
+
+
+                Random rand = new Random();
+                 int rr = rand.nextInt(5)+1;
+                for (int i = 0; i < rr; i++){
+
+                   msgDtoList.add(msgDto);
+
+               }
+
 
 
             }
